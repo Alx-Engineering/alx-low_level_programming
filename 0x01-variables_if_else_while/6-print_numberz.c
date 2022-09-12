@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <timp.h>
+#include <time.h>
+
 /**
  * main - program that prints all single digit numbers of base 10 starting from
  * You are not allowed to use any variable of type char
@@ -10,9 +11,12 @@
 
 int main(void)
 {
-  int d;
-  for (d = 0 ; d <= 57 ; d++)
-       putchar(d);
-       printf("\n");
-  return (0);
+int n = 48;
+while (n <= 57)
+{
+putchar(n);
+n += 1;
+}
+printf("\n");
+return (0);
 }
