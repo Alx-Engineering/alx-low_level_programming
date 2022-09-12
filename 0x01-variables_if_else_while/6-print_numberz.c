@@ -11,7 +11,7 @@
 int main(void)
 {
   int d;
-  for (d = '0' ; d <= '57' ; d++)
+  for (d = 0 ; d <= 57 ; d++)
        putchar(d);
        printf("\n");
   return (0);
