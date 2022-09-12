@@ -10,9 +10,9 @@
 
 int main(void)
 {
-  int n;
-  for (n = '0' ; n <= '57' ; n++)
-       putchar(n);
+  int d;
+  for (d = '0' ; d <= '57' ; d++)
+       putchar(d);
        printf("\n");
   return (0);
 }
