@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "Putchar.h"
 
+main();
 /**
  * print_alphabet - a function that prints the alphabet, in lowercase
  *
