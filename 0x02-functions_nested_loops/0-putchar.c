@@ -1,7 +1,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "Putchar.h"
+#include "putchar.h"
+#include "main.h"
 /**
  * main - Entry point
  *
