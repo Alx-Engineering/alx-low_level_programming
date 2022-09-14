@@ -14,7 +14,7 @@ int main(void)
 
 	while (i<=8)
 	{
-		c=ch[i];
+		c=sh[i];
 		_putchar(c);
 		i++;
 	}
