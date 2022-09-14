@@ -8,12 +8,15 @@
  */
 int main(void)
 {
-	char *sh = "Putchar";
+	char sh[8]="_putchar";
+	int i=0;
+	char c;
 
-	while (*sh)
+	while (i<=8)
 	{
+		c=ch[i];
 		_putchar(*sh);
-		sh++;
+		i+;
 	}
 	_putchar('\n');
 
