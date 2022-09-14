@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char *sh = "Putchar";
+	char *sh = "Holberton";
 
 	while (*sh)
 	{
@@ -20,3 +20,4 @@ int main(void)
 
 	return (0);
 }
+
