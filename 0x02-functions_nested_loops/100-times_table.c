@@ -6,8 +6,12 @@
  *gf
  * Return: Always 0.
  */
-void print_times_table(int n)
+int main(void)
 {
-    _putchar('\n'); 
+    int n;
+    print_times_table(n)
+    {
+    _putchar('\n')
+    }; 
     return (0);
 }
