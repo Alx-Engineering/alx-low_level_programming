@@ -10,6 +10,6 @@ int main(void)
 {
     int n;
     print_times_table(n);
-    _putchar('\n')
+    _putchar('\n');
     return (0);
 }
