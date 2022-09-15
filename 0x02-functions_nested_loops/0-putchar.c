@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include "main.h"
 /**
@@ -8,15 +7,12 @@
  */
 int main(void)
 {
-	char sh[8]="_putchar";
-	int i=0;
-	char c;
+	char *sh = "Holberton";
 
-	while (i<=8)
+	while (*sh)
 	{
-		c=sh[i];
-		_putchar(c);
-		i++;
+		_putchar(*sh);
+		sh++;
 	}
 	_putchar('\n');
 
