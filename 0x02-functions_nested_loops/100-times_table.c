@@ -12,6 +12,6 @@ int main(void)
     print_times_table(n)
     {
     _putchar('\n')
-    }; 
+    } 
     return (0);
 }
