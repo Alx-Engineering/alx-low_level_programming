@@ -1,20 +1,21 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+*main - function prints text as output
+*
+*Return:return 0
+*/
 int main(void)
 {
-	char *sh = "_putchar";
+	char school[10] = "_putchar";
 
-	while (*sh)
+	int i;
+
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(school[i]);
 	}
-	_putchar('\n');
-
+	_putchar(10);
 	return (0);
 }
