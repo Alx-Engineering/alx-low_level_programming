@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <main.h>
+
 /**
  * main - entry point generates a random password
  *
  * Return: the generated password
  */
+
 int main(void)
 {
 char c;
