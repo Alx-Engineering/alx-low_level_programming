@@ -9,7 +9,7 @@ int main(void)
 {
     char *str;
 
-    str = "56789"; // Mettez le texte correspondant à la sortie attendue
+    str = "56789";
     puts_half(str);
     return (0);
 }
