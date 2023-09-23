@@ -9,7 +9,7 @@ int main(void)
 {
     char *str;
 
-    str = "02468"; // Mettez le texte correspondant à la sortie attendue
+    str = "02468";
     puts2(str);
     return (0);
 }
