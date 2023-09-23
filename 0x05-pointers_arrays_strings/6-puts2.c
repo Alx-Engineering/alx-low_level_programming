@@ -1,24 +1,18 @@
-#include <stdio.h>                                                 
-#include <stdlib.h> 
 #include "main.h"
 
 /**
- * puts2 - prints part of a string
- * @str: string to be printed
- *
- * Return: void
- **/
-
+ * puts2 - Prints every other character of a string.
+ * @str: The string to be printed.
+ */
 void puts2(char *str)
 {
-int i = 0;
-while (str[i] != '\0')
-{
-if (i % 2 == 0)
-_putchar(str[i]);
-i++;
-}
+    int i = 0;
 
-_putchar('\n');
-}
+    while (str[i])
+    {
+        _putchar(str[i]);
+        i += 2;
+    }
 
+    _putchar('\n');
+}
