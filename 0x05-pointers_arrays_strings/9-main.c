@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-    char *src = "Hello, Holberton!";
-    char dest[50];
+char *src = "Hello, Holberton!";
+char dest[50];
 
-    _strcpy(dest, src);
-    printf("Destination string: %s\n", dest);
-    return (0);
+_strcpy(dest, src);
+printf("Destination string: %s\n", dest);
+return (0);
 }
