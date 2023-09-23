@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-char *str;
+    char *str;
 
-str = "0123456789";
-puts2(str);
-return (0);
+    str = "02468"; // Mettez le texte correspondant à la sortie attendue
+    puts2(str);
+    return (0);
 }
